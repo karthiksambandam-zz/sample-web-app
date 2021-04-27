@@ -10,6 +10,10 @@
 
   <properties>
     <spring.version>4.1.1.RELEASE</spring.version>
+  <sonar.projectKey>1233dfsdfsd</sonar.projectKey>
+  <sonar.organization>vaibhav09mbm</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
   </properties>
 
   <dependencyManagement>
