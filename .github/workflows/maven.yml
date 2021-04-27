@@ -21,5 +21,7 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
+      env:
+       SONAR_TOKEN: 2f39be6773303984a4e06589849658d4a6f402c0
     - name: Build with Maven
       run: mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -B package --file pom.xml
